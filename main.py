@@ -195,9 +195,9 @@ dialog = Dialog()
 dialog.mode = None
 dialog.list = []
 
-chatgpt = ChatGptService(token='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')  # Вставьте свой ключ
+chatgpt = ChatGptService(token='#')  # Вставьте свой ключ
 
-app = ApplicationBuilder().token("7504122340:AAHoELQ6A3Xgt3btqgUDuFZL9iv1yA53i2E").build()  # Вставьте токен ТГ
+app = ApplicationBuilder().token("#").build()  # Вставьте токен ТГ
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("question", question))
 app.add_handler(CommandHandler("don", don))
